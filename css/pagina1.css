@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.logo img{
+    width:100%;
+}
+.header{
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(94, 54, 110);
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    color: rgb(149, 222, 70);
+    font-weight: bold;
+    text-align: center;
+}
+.menu a:hover{
+    color: rgb(94, 54, 110);
+    font-weight: bold;
+    border-radius:50%;
+    background-color: rgb(149, 222, 70);
+}
+main{
+    background-color: rgb(79, 107, 191);
+}
+.div-01 h1, .div-02 h1, .div-05 h1{
+    padding: 10px 10px;
+    text-align: center;
+    color:rgb(149, 222, 70)
+}
+.div-01 p, .div-02 p, .div-05 p{
+    padding: 10px 10px;
+    text-align: justify;
+    color: white;
+}
+.div-03 img{
+    width: 100%;
+}
+.div-04 img{
+    width: 100%;
+    height: 300px;
+    margin-top: -5px;
+}
+.div-06 img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.title h1{
+    text-align: center;
+    color: orangered;
+    padding: 10px;
+}
+footer{
+    padding: 16px 0;
+    background-color: rgb(94, 54, 110);
+    
+}
+footer p{
+    color:rgb(149, 222, 70);
+    text-align: center;
+    font-weight: 900;
+    margin-top: -4px;
+}
+@media screen and (min-width:400px){
+    .logo img{
+        width: 150px;
+    }
+}
+@media screen and (min-width:1200px){
+    .width{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .div-01, .div-02, .div-03, .div-04{
+        width: 50%;
+    }
+    .div-03 img{
+        width: 100%;
+        padding-left: 5px;
+    }
+    .div-04 img{
+        width:98%;
+        height: 390px;
+    }
+    .div-06 img{
+        width:100%;
+    }
+    .flex {
+        display: flex;
+    }
+    .sec-02-div-01 h1, .sec-02-div-02 h1, .sec-03-div-01 h1, .sec-03-div-02 h1{
+        padding: 10px 10px;
+        text-align: left;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a:hover{
+    background-color: rgba(8, 3, 3, 0.05);
+}
+.logo img{
+    width: 100%;
+}
+.header{
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(94, 54, 110);
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    color: rgb(149, 222, 70);
+    font-weight: bold;
+    text-align: center;
+}
+.menu a:hover{
+    color: rgb(94, 54, 110);
+    font-weight: bold;
+    border-radius:50%;
+    background-color: rgb(149, 222, 70);
+}
+main{
+    background-color: rgb(240, 75, 44);
+}
+.div-01 img{
+    width: 100%;
+}
+.div-00 h1{
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+}
+.div-02 p, .div-04 p, .div-06 p{
+    padding: 10px 10px;
+    text-align: justify;
+    color: white;
+}
+.div-03 img{
+    width: 100%;
+}
+.div-04 h2{
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+}
+.div-05 img{
+    width: 100%;
+}
+.div-06 h2{
+    padding: 10px 10px;
+    text-align: justify;
+    color: white;
+}
+footer{
+    padding: 16px 0;
+    background-color: rgb(94, 54, 110);
+    
+}
+footer p{
+    color:rgb(149, 222, 70);
+    text-align: center;
+    font-weight: 900;
+    margin-top: -4px;
+}
+@media screen and (min-width:400px){
+    .logo img{
+        width: 150px;
+    }
+}
+@media screen and (min-width:1200px){
+    .width{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .flex {
+        display: flex;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .div-00 h1{
+        font-size: 30px;
+    }
+}
